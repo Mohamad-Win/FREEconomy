@@ -1,0 +1,59 @@
+body{
+    padding-top: 70px;
+}
+
+#freeconomics_body{
+    padding-top: 10px;
+}
+
+#befree_body{
+    padding-top: 3px;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+#mainNavbar .navbar-brand:hover{
+    color:#BAF643;
+}
+
+#mainNavbar {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: -1px;
+    font-size: 1.2rem;
+    font-weight: 2em;
+    background-color: #009900;
+    padding-bottom: 1rem;
+}
+
+#mainNavbar .nav-link:hover{
+    color:#00AD30;
+}
+
+main{ 
+margin: auto;  
+padding-top: 6em;
+padding-bottom: 10em;
+}
+
+p {
+    color: black;
+}
+
+footer {
+    padding-top: 0.8em;
+    background-color: #009900;
+}
+
+footer p {
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+a{
+    color: white;
+}
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body id="befree_body" class="d-flex h-100 ">
+
+    <div id="box" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+                    <div class="container-fluid">
+                        <a href="#" class="navbar-brand" aria-current="page">HOME</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarLinks" aria-controls="navbarCollapse" aria-expanded="false"
+                            aria-label="Toggle Navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarLinks">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="">FREEconomics</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="">Be FREE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="">Resources</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="">Support</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search" action="">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" style="background-color: black; color: white"
+                                    type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="px-3">
+            <h1 class="text-center">Are you ready to be FREE</h1>
+            <p>Together we can create the systems we need to thrive. Please fill in your details below to become a
+                FREEconomist, and we will be in touch to discuss how you can contribute towards making history!
+            </p>
+
+            <div class="row g-5">
+                <div class col-md-7 col-lg-8>
+                    <form class="needs-validation" novalidate action="">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label for="fullName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="What is your name?"
+                                    value="" required>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="location" class="form-label">Location</label>
+                                <input type="text" class="form-control" id="location"
+                                    placeholder="What country do you live in?" required>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="text" class="form-control" id="email"
+                                    placeholder="What is your email address?" required>
+                                <div class="invalid-feedback">Valid email is required</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="skills" class="form-label">Skills/experience you can contribute</label>
+                                <input type="text" class="form-control" id="skills"
+                                    placeholder="Anything, even times you can volunteer on charity projects" required>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="services_Wishlist" class="form-label">Services you would like to see from
+                                    us</label>
+                                <input type="text" class="form-control" id="services_Wishlist"
+                                    placeholder="What would you like to see from us?">
+                            </div>
+
+                            <div class="col-12">
+                                <label for="additionalComments" class="form-label">Additional Comments</label>
+                                <input style="height:200px;" type="text" class="form-control input-large search-query"
+                                    id="additionalComments">
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="emailNotifications">
+                            <label class="form-check-label" for="emailNotifications" style="text-align: left;">I would
+                                like to receive email
+                                notifications and label</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dataAgreement">
+                            <label class="form-check-label" for="dataAgreement">I hereby agree that this data will be
+                                stored and processed for the purpose of establishing contact. I am aware that I can
+                                revoke my consent at any time</label>
+                        </div>
+
+                        <br>
+                        <button type="submit" class="w-100 btn btn-primary" onclick="" ;">SEND</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="mt-auto text-white-50 fixed-bottom">
+            <p>
+                Freeconomy.today
+            </p>
+
+            <p>
+
+                <a href=""> FREE Resources</a> |
+                <a href=""> Roadmap</a> |
+                <a href=""> Plan</a> |
+            </p>
+
+            <p>
+                <a href=""> Telegram</a> |
+                <a href=""> Discord</a> |
+                <a href=""> Whatsapp</a> |
+                <a href=""> Reddit</a> |
+                <a href=""> Medium</a> |
+                <a href=""> Tiktok</a> |
+                <a href=""> Snapchat</a>
+
+            </p>
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
